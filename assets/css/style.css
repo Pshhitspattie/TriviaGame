@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'WaltographRegular'; 
+    font-weight: 400;
+    background-image: url(https://wallpapercave.com/wp/3LBX9VI.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+
+
+  #title {
+    font-family: 'WaltographRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    text-align: center;
+    font-size: 100px;
+  }
+  
+  
+  
+  #startButton {
+    background-color: lightblue;
+    line-height: 32px;
+    border-radius: 2px;
+    border:none;
+    outline: none;
+    height: 25%;
+    width: 25%;
+    color:#fff;
+    font-size: 60px;
+    padding: 30px;
+    font-family: 'WaltographRegular'; 
+    font-weight: normal; 
+    font-style: normal; 
+    margin-left: 30%;
+    margin-right: 30%;
+  
+  }
+  
+  #startButton:hover {
+    
+    background-color: lightcyan;
+  }
+  
+  
