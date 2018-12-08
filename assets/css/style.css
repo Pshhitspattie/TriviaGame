@@ -23,7 +23,7 @@ body{
   
   
   #startButton {
-    background-color: lightblue;
+    background-color: transparent;
     line-height: 32px;
     border-radius: 2px;
     border:none;
@@ -43,7 +43,8 @@ body{
   
   #startButton:hover {
     
-    background-color: lightcyan;
+    background-color: lightblue;
   }
   
   
+ 
