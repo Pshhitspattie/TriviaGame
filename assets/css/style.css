@@ -9,41 +9,54 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
   }
+
+  #jumbo {
+    text-align: center;
+    position: relative;
+    top: 80px;
+    background-color: white;
+        
+  }
   
 
 
-  #title {
+  .text {
     font-family: 'WaltographRegular'; 
     font-weight: normal; 
     font-style: normal; 
     text-align: center;
-    font-size: 100px;
+    font-size: 75px;
+    
+  }
+
+  h2 {
+    font-family: 'WaltographRegular'; 
+
   }
   
   
   
-  #startButton {
-    background-color: transparent;
-    line-height: 32px;
+  #start {
+    
+    
     border-radius: 2px;
     border:none;
     outline: none;
-    height: 25%;
-    width: 25%;
     color:#fff;
     font-size: 60px;
-    padding: 30px;
+    
     font-family: 'WaltographRegular'; 
     font-weight: normal; 
     font-style: normal; 
-    margin-left: 30%;
-    margin-right: 30%;
+    
+    text-align: center;
+    background: lightcyan
   
   }
   
-  #startButton:hover {
+  #start:hover {
     
-    background-color: lightblue;
+    background-color: rgb(190, 229, 242);
   }
   
   

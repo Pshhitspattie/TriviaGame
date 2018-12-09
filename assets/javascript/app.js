@@ -30,7 +30,23 @@ Snow White, Aurora, Cinderella
 */
 
 //Question set
-  
+
+$(document).ready(function(){
+  $("#remaining-time").hide();
+  $("#start").on('click', trivia.startGame);
+  $(document).on('click', '.opinion', trivia.guessChecker);
+})
+
+var trivia = {
+  correct: 0,
+  incorrect:0,
+  unanswered:0,
+  currentSet: 0,
+  timer: 30,
+  timerOn: false,
+  timerId: '',
+
+}
   var questions = [{
     question: "In Aladdin, what is the name of Jasmine’s pet tiger?",
     answers: ["Genie", "Thumper", "Rajah"],
@@ -62,9 +78,15 @@ Snow White, Aurora, Cinderella
     correctAnswer: "Snow White",
     image:"assets/images/snowwhite.gif"
  
-  }];
+  }]
+
+
   
   
   
+
+  
+  
+
   
   
